@@ -18,7 +18,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	}
  
     *{
-
+  border: 1px solid red;
 }
 html{
     font-size: 62.5%;
@@ -27,14 +27,15 @@ body{
     font-size: 1.6rem;
     line-height: 1.5;
     color:#4f4f4f;
-    font-family: 'Roboto', monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 a{
-    font-family: 'Roboto', monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 h1{
     font-size:5rem ;
     font-family: 'Chelsea Market', cursive;
+    text-align: center;
 
 }
 section{
@@ -63,8 +64,8 @@ margin: 0 24%;
 background-color: #FFCD69;
 margin-right: 10%;
 }
-.right {
-    position: ;
+.top{
+    margin:0%;
 }
 .left .right{
     display:inline-block;
@@ -76,15 +77,74 @@ margin-right: 10%;
     .left img{
         border-radius: 50%;
         width:80%;
+        margin-left: 20%;
     }
 .right{
     width:50%;
-    margin-left:5%;
+    margin-left:40%;
     position: absolute;
     top: 40%;
+
 }
 
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    text-align:center;
+}
+.right p{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+.description{
+    text-align: center;
+    margin:3%;
+    background-color: #DDB9A3;
+    
+}
+.description p{
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom:3%;
+    margin:2%;
+    color:azure;
+}
+.empty{
+    display:block;
+    margin:0%;
+    
+}
+.fire img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width:20%; 
+    text-align: center;
+}
+.fire p{
+    font-family: 'Roboto Mono', monospace;
+margin-left: 38%;
+margin-right: 38%;
+text-align: center;
 
+}
+.fire p span{
+    font-weight: bold;
+}
+.car img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width:20%; 
+    text-align: center;
+}
+.car p{
+    font-family: 'Roboto Mono', monospace;
+margin-left: 38%;
+margin-right: 38%;
+text-align: center;
+}
+.car p span{
+    font-weight: bold;
+}
 
 
 
